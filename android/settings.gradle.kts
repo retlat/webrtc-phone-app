@@ -13,4 +13,9 @@ dependencyResolutionManagement {
     }
 }
 rootProject.name = "PhoneApp"
-include(":app", ":ui:theme")
+include(
+    ":app",
+    ":resource",
+    ":ui:main",
+    ":ui:theme"
+)
