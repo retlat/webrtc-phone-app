@@ -33,7 +33,7 @@ android {
         compose = true
     }
     composeOptions {
-        kotlinCompilerExtensionVersion = "1.1.1"
+        kotlinCompilerExtensionVersion = libs.versions.compose.get()
     }
     packagingOptions {
         resources {
@@ -43,6 +43,6 @@ android {
 }
 
 dependencies {
-    implementation("androidx.compose.ui:ui:1.1.1")
-    implementation("androidx.compose.material:material:1.1.1")
+    implementation(libs.compose.ui)
+    implementation(libs.compose.material)
 }

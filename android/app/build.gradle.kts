@@ -42,8 +42,8 @@ android {
 }
 
 dependencies {
-    implementation("com.google.dagger:hilt-android:2.38.1")
-    kapt("com.google.dagger:hilt-android-compiler:2.38.1")
+    implementation(libs.hilt.android)
+    kapt(libs.hilt.android.compiler)
     implementation(project(":resource"))
     implementation(project(":ui:main"))
 }
