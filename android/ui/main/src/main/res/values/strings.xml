@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ui_main_mic_state">マイクの使用</string>
+    <string name="ui_main_mic_permitted">許可</string>
+    <string name="ui_main_mic_request">リクエスト</string>
+</resources>
