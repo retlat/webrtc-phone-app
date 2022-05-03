@@ -5,6 +5,7 @@ plugins {
 
 android {
     compileSdk = 31
+    resourcePrefix = "ui_main_"
 
     defaultConfig {
         minSdk = 30
