@@ -55,6 +55,7 @@ rootProject.name = "PhoneApp"
 include(
     ":app",
     ":resource",
+    ":service:call",
     ":ui:main",
     ":ui:theme"
 )

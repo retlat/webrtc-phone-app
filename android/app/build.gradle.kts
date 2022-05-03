@@ -45,6 +45,7 @@ dependencies {
     implementation(libs.hilt.android)
     kapt(libs.hilt.android.compiler)
     implementation(project(":resource"))
+    implementation(project(":service:call"))
     implementation(project(":ui:main"))
 }
 

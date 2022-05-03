@@ -3,6 +3,7 @@
     package="com.example.phoneapp">
 
     <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.MANAGE_OWN_CALLS" />
 
     <uses-feature android:name="android.hardware.microphone" />
 
