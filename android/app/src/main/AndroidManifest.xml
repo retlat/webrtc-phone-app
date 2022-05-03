@@ -2,6 +2,10 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.phoneapp">
 
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+
+    <uses-feature android:name="android.hardware.microphone" />
+
     <application
         android:name=".MainApplication"
         android:allowBackup="true"
