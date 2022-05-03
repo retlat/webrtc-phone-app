@@ -10,7 +10,7 @@ import androidx.compose.material.*
 import androidx.compose.runtime.collectAsState
 import androidx.compose.ui.res.stringResource
 import androidx.core.content.ContextCompat
-import com.example.phoneapp.R
+import com.example.phoneapp.resource.R
 import com.example.phoneapp.ui.theme.PhoneAppTheme
 import kotlinx.coroutines.flow.MutableStateFlow
 
