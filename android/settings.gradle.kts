@@ -1,3 +1,5 @@
+import java.net.URI
+
 pluginManagement {
     repositories {
         gradlePluginPortal()
@@ -10,6 +12,7 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
+        maven { url = URI("https://jitpack.io") }
     }
     versionCatalogs {
         create("libs") {
@@ -42,6 +45,8 @@ dependencyResolutionManagement {
                     .filter { it != "compose-ui-tooling" }
                     .plus(listOf("lifecycle-runtime-ktx", "activity-compose"))
             )
+
+            library("webrtc", "com.github.webrtc-sdk:android:97.4692.01")
         }
         create("testingLibs") {
             library("junit", "junit:junit:4.13.2")
