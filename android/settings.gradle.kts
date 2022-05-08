@@ -47,6 +47,16 @@ dependencyResolutionManagement {
             )
 
             library("webrtc", "com.github.webrtc-sdk:android:97.4692.01")
+
+            val ktorLibs = listOf(
+                "ktor-client-core",
+                "ktor-client-cio",
+                "ktor-client-websockets"
+            )
+            ktorLibs.forEach {
+                library(it, "io.ktor:${it}:2.0.1")
+            }
+            bundle("ktor-client", ktorLibs)
         }
         create("testingLibs") {
             library("junit", "junit:junit:4.13.2")

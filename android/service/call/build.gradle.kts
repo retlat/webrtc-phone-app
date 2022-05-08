@@ -38,4 +38,5 @@ android {
 
 dependencies {
     implementation(libs.webrtc)
+    implementation(libs.bundles.ktor.client)
 }
